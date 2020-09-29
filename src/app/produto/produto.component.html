@@ -1,0 +1,15 @@
+<div class="card">
+  <div class="imagem" [style]="produto.imagem"></div>
+  <div>
+    <p>{{produto.nome}}<br>
+    Preço: R$ {{produto.valor}}</p>
+  </div>
+  <div>
+    <button>+</button><br>
+    {{produto.quantidade}}<br>
+    <button>-</button>
+  </div>
+  <div>
+    Preço Total: R$ {{produto.valorTotal}}
+  </div>
+</div>
