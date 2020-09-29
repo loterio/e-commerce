@@ -6,19 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent implements OnInit {
-  headphone = {
-    nome: 'Chuteira Masculina do Flamengo',
-    imagem: 'background-image: url("../../chuteira.jpg");',
-    valor: 140,
-    quantidade: 2,
-    valorTotal: 280
+  p01 = {
+    nome: 'Notebook',
+    imagem: 'background-image: url("../../pc.jpg");',
+    valor: 5600,
+    quantidade: 4,
+    valorTotal: 22400
   };
-  GT1 = {
-    nome: 'Bola personalizada do Flamengo',
-    imagem: 'background-image: url("../../bola.jpg");',
-    valor: 100,
-    quantidade: 8,
-    valorTotal: 800
+  p02 = {
+    nome: 'Cavalo Mangalarga Marchador',
+    imagem: 'background-image: url("../../horse.jpg");',
+    valor: 10000,
+    quantidade: 1,
+    valorTotal: 10000
   };
   constructor() { }
 
